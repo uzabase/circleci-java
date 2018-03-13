@@ -3,8 +3,8 @@ MAINTAINER Hideyuki TAKEUCHI <hideyuki.takeuchi@uzabase.com>
 
 ARG USER_HOME_DIR="/root"
 
-ARG GRADLE_VERSION=3.5
-ARG GRADLE_SHA=0b7450798c190ff76b9f9a3d02e18b33d94553f708ebc08ebe09bdf99111d110
+ARG GRADLE_VERSION=4.6
+ARG GRADLE_SHA=98bd5fd2b30e070517e03c51cbb32beee3e2ee1a84003a5a5d748996d4b1b915
 ARG GRADLE_BASE_URL=https://services.gradle.org/distributions
 
 RUN curl -fsSL -o /tmp/gradle.zip ${GRADLE_BASE_URL}/gradle-${GRADLE_VERSION}-bin.zip \
